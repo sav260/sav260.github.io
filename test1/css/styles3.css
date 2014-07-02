@@ -1,0 +1,29 @@
+#box1 {
+	width: 250px;
+	height: 250px;
+	background-color:red;
+	display: block;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	line-height: 250px;
+}
+#box2 {
+	width: 250px;
+	height: 250px;
+	background-color:green;
+	display: block;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+#box3 {
+	width: 250px;
+	height: 250px;
+	background-color:black;
+	display: block;
+	color: white;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}

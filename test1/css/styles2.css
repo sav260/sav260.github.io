@@ -1,0 +1,19 @@
+#largebox {
+	width: 800px;
+	height: 800px;
+	background-color: orange;
+	position: absolute;
+
+}
+#mediumbox {
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	position: relative;
+	}	
+#smallbox {
+	width: 250px;
+	height: 250px;
+	background-color: green;
+	position: relative;
+}

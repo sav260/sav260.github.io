@@ -1,0 +1,29 @@
+#box1 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-color: blue;
+}
+#box2 {
+	width: 250px;
+	height: 250px;
+	float: right;
+	background-color: red;
+}
+#box3 {
+	width: 250px;
+	height: 250px;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	color: white;
+}
+#box4 {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: yellow;
+	color: black;
+}
