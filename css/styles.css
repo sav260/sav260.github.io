@@ -1,11 +1,67 @@
-body {
+header {
+	background-color: blue;
+}
+nav {
+	overflow: hidden;
+}
+nav ul li {
+	display: inline-block;
+	width: 20%;
+}
+nav ul li a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+main {
+	background-color: yellow;
+}
+main:before, main:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+article {
+	background-color: green;
+	width: 65%;
+	float: left;
+}
+article img {
+	float: left;
+}
+aside {
 	background-color: red;
-
+	width: 65%;
+	float: right;
+}
+footer {
+	background-color: purple;
 }
 
-@media screen and (min-width: 350px){
-	body{
-		background-color: yellow;
+
+@media screen and ( min-width: 350px){
+	footer {
+		text-align: right;
+		width: 100%;
+		text-align: right;
+		float: left;
 	}
+	article {
+		margin: o;
+		padding: 0;
+	background-color: green;
+	width: 100%;
+	float: left;
 }
-
+	aside {
+	background-color: red;
+	width: 65%;
+	float: right;
+}
+	footer {
+	background-color: purple;
+	float: right;
+}
+}
