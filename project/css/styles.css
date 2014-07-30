@@ -1,0 +1,32 @@
+/* Homepage Styles*/
+.navbar-header{
+
+}
+.carousel-inner{
+	width: 100%;
+	height 100%;
+}
+.footer {
+	background: url(../img/squared-metal.png);
+	background-size: cover;
+}
+/* About Styles*/
+#about .row .img{
+	padding: 5px;
+}
+#about .info{
+	float: right;
+	padding: 10px;
+}
+
+/* Schedule Styles*/
+
+/* Newsletter Styles*/
+
+/* Tuition Styles*/
+
+/* Gallery Styles*/
+
+/* Links Styles*/
+
+/* Contact Styles*/
